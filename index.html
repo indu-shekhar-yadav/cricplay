@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <main class="cricplay">
+      <div class="desktopframe">
+        <header class="herosection">
+          <div class="cricplay1">CricPlay</div>
+        </header>
+        <section class="search">
+          <input class="searchbar-input" id= "input-get" type="text" data-animate-on-scroll />
+          
+          <div class="details" id = "set-data"> 
+            <p class="output" id="output1"></p>
+            <p class="output" id="output2"></p>
+            <p class="output" id="output3"></p>
+            <p class="output" id="output4"></p>
+          </div>
+          <button class="submit-button" autofocus>
+            <div class="submit" id = "btn-get">SEARCH</div>
+          </button>
+        </section>
+        <section class="addnew">
+          <div class="name">
+            <div class="name1">Name</div>
+            <input class="entername-input" id="name_id" type="text" data-animate-on-scroll />
+          </div>
+          <div class="runs">
+            <div class="name1">Runs</div>
+            <input class="enterruns-input" id="run_id" type="number" data-animate-on-scroll />
+          </div>
+          <div class="wickets">
+            <div class="wickets1">Wickets</div>
+            <input
+              class="enterwicket-input"
+              type="number"
+              id="wicket_id"
+              data-animate-on-scroll
+            />
+          </div>
+          <div class="age">
+            <div class="wickets1">Age</div>
+            <input
+              class="enterwicket-input"
+              type="number"
+              id="age_id"
+              data-animate-on-scroll
+            />
+          </div>
+          <button class="submit-button1" id="submit_id" autofocus>
+            <div class="submit" id="submit_id1">SUBMIT</div>
+          </button>
+          <div class="addnewtitle">
+            <div class="add-new-player">Add New Player</div>
+          </div>
+        </section>
+        <section class="delete">
+          <input class="del-input" type="text" />
+
+          <button class="del-btn"  data-animate-on-scroll>
+            <!-- <button onclick="document.querySelector('.confirm').style.display = 'block' "></button> -->
+            <div class="delete1">DELETE</div>
+          </button>
+        </section>
+        <section class="confirm">
+          <div class="are-you-sure">Are you sure??</div>
+          <button class="yes">
+            <div class="yes1">YES</div>
+          </button>
+          <button class="no" autofocus>
+            <div class="no1">NO</div>
+          </button>
+          <button class="cross-1"></button>
+          <input class="cross-1" type="image" src="cross.png" >
+        </section>
+      </div>
+    </main>
+      <script src="index.js"> </script>
+  </body>
+</html>
